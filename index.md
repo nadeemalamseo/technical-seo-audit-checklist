@@ -29,6 +29,14 @@ A practical technical SEO audit framework for reviewing crawlability, indexabili
 - Security and HTTPS
 - Error monitoring
 
+## Get the resource
+
+This repository contains the technical SEO audit checklist and worksheet. You can read the files directly on GitHub or download the repository as a ZIP.
+
+[Download the latest repository as a ZIP](https://github.com/nadeemalamseo/technical-seo-audit-checklist/archive/refs/heads/main.zip)
+
+[Open the GitHub repository](https://github.com/nadeemalamseo/technical-seo-audit-checklist)
+
 ## Start Here
 
 [Read the Technical SEO Audit Checklist](README.md)
