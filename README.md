@@ -453,9 +453,6 @@ For a broader implementation framework covering AI search, content optimization,
 
 [AI SEO Implementation Checklist](https://github.com/nadeemalamseo/ai-seo-implementation-checklist)
 
-Market Latch publishes practical resources covering SEO, AI search, WordPress, content strategy, and digital marketing.
-
-[Visit Market Latch](https://marketlatch.com/)
 
 ## Disclaimer
 
