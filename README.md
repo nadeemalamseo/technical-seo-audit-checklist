@@ -18,6 +18,12 @@ It is designed for:
 - Agencies
 - Technical SEO teams
 
+## Use the Audit Worksheet
+
+The repository includes a practical worksheet for recording checks, findings, evidence, recommendations, and verification results.
+
+[Open the Technical SEO Audit Worksheet](checklist.md)
+
 ## What This Audit Covers
 
 ### 1. Website Accessibility
@@ -316,3 +322,147 @@ A practical audit can follow this sequence:
 13. PRIORITIZE ACTIONS
           ↓
 14. RECRAWL & VERIFY
+```
+
+The exact order may change depending on the website, audit objective, and severity of identified problems.
+
+## Audit Prioritization
+
+Not every technical issue deserves the same level of attention.
+
+For each finding, document:
+
+| Field | Description |
+|---|---|
+| Issue | What was identified |
+| Location | URL, template, directory, or system affected |
+| Evidence | Data supporting the finding |
+| Impact | Potential consequence |
+| Recommendation | Suggested corrective action |
+| Priority | Relative implementation priority |
+| Owner | Person or team responsible |
+| Status | Open, in progress, resolved, or monitoring |
+| Verification | How the correction will be tested |
+
+Prioritize issues according to their actual effect on accessibility, crawling, indexing, usability, performance, and site maintenance.
+
+## Evidence Sources
+
+Useful audit evidence may include:
+
+- Website crawls
+- Server logs
+- HTTP response testing
+- Google Search Console
+- Analytics data
+- XML sitemaps
+- `robots.txt`
+- Browser testing
+- Page-source inspection
+- Rendering tests
+- Structured-data validation
+- Core Web Vitals data
+- Real-user performance data
+- Internal linking analysis
+
+Use multiple evidence sources when a finding could have more than one explanation.
+
+## Before Making Changes
+
+Before implementing significant technical changes:
+
+1. Record the current state.
+2. Document the affected URLs or templates.
+3. Identify dependencies.
+4. Create a rollback plan where appropriate.
+5. Make the smallest practical change.
+6. Validate the result.
+7. Monitor the affected area after deployment.
+
+## Verification After Fixes
+
+After implementing a correction:
+
+- Recheck the affected URL or template
+- Confirm the intended HTTP status
+- Confirm canonical behavior
+- Confirm robots directives
+- Recheck internal links
+- Recheck sitemap inclusion where applicable
+- Validate structured data where applicable
+- Review rendering
+- Re-crawl affected sections
+- Monitor search-engine processing over time
+
+Do not assume that implementing a fix immediately changes search-engine processing or indexing.
+
+## Common Technical SEO Audit Mistakes
+
+Avoid:
+
+- Treating every crawl warning as a critical problem
+- Blocking important resources without understanding the consequences
+- Changing canonicals without checking page relationships
+- Redirecting large numbers of URLs without documenting the mapping
+- Removing indexed pages without evaluating their purpose
+- Making technical changes without a baseline
+- Relying on a single SEO tool as the only source of evidence
+- Assuming correlation proves causation
+- Implementing structured data that does not match visible content
+- Making large technical changes without verification
+- Prioritizing issues solely because an automated tool assigns a high score
+
+## Audit Documentation
+
+Keep a record of:
+
+- Audit date
+- Website scope
+- Tools and data sources
+- Crawl configuration
+- Important findings
+- Recommended actions
+- Implemented changes
+- Verification results
+- Follow-up dates
+
+Good documentation makes future audits easier to reproduce and compare.
+
+## Maintenance
+
+Technical SEO is not a one-time task.
+
+Review important technical areas after:
+
+- Website migrations
+- Domain changes
+- Template changes
+- CMS changes
+- Major plugin changes
+- Navigation changes
+- URL restructuring
+- Large content releases
+- Performance changes
+- Significant development deployments
+
+Schedule recurring technical reviews according to the website's size, complexity, and rate of change.
+
+## Related Resource
+
+For a broader implementation framework covering AI search, content optimization, structured data, entity optimization, internal linking, authority, and measurement:
+
+[AI SEO Implementation Checklist](https://github.com/nadeemalamseo/ai-seo-implementation-checklist)
+
+## Disclaimer
+
+This checklist provides general educational information for technical SEO auditing.
+
+Search engines, browsers, CMS platforms, and web technologies can change over time. A technical issue does not automatically mean that a website will lose rankings or traffic, and resolving an issue does not guarantee improved search performance.
+
+Always validate findings against the actual website, available evidence, current authoritative documentation, and the site's specific technical environment.
+
+## Author
+
+Created by **Nadeem Alam**, Digital Marketing & SEO Specialist.
+
+[GitHub profile](https://github.com/nadeemalamseo)
