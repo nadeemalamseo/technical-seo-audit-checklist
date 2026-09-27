@@ -58,6 +58,10 @@ For broader guidance covering AI search, content optimization, structured data, 
 
 [AI SEO Implementation Checklist](https://github.com/nadeemalamseo/ai-seo-implementation-checklist)
 
+## Related MarketLatch resource
+
+For a reusable audit and client-reporting workflow that complements this checklist, see the [Professional SEO Audit Template & Client Reporting System](https://marketlatch.com/product/seo-audit-template/).
+
 ## About
 
 This resource is maintained as a practical technical SEO reference. It focuses on evidence-based auditing, clear documentation, appropriate prioritization, and verification rather than guaranteed search-performance outcomes.
