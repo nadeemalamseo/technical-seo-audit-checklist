@@ -473,3 +473,7 @@ Created by **Nadeem Alam**, Digital Marketing & SEO Specialist.
 - [Project landing page](https://nadeemalamseo.github.io/technical-seo-audit-checklist/)
 - [v0.1.0 release](https://github.com/nadeemalamseo/technical-seo-audit-checklist/releases/tag/v0.1.0)
 - [Download v0.1.0 ZIP](https://github.com/nadeemalamseo/technical-seo-audit-checklist/archive/refs/tags/v0.1.0.zip)
+
+## License
+
+This repository is licensed under the MIT License. See [LICENSE](LICENSE).
