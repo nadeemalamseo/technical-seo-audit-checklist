@@ -467,3 +467,9 @@ Always validate findings against the actual website, available evidence, current
 Created by **Nadeem Alam**, Digital Marketing & SEO Specialist.
 
 [GitHub profile](https://github.com/nadeemalamseo)
+
+## Project links
+
+- [Project landing page](https://nadeemalamseo.github.io/technical-seo-audit-checklist/)
+- [v0.1.0 release](https://github.com/nadeemalamseo/technical-seo-audit-checklist/releases/tag/v0.1.0)
+- [Download v0.1.0 ZIP](https://github.com/nadeemalamseo/technical-seo-audit-checklist/archive/refs/tags/v0.1.0.zip)
