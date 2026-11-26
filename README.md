@@ -18,6 +18,12 @@ It is designed for:
 - Agencies
 - Technical SEO teams
 
+## Audit methodology and evidence standards
+
+Use the [Audit Methodology](methodology.md) alongside the worksheet. It explains how to distinguish direct first-party evidence from third-party estimates, interpret Search Console reports, apply Core Web Vitals thresholds, and avoid common false positives.
+
+A checklist item is a prompt to investigate, not proof of an SEO defect. Record the affected URL or template, observation date, data source, sample and configuration, actual evidence, expected behavior, impact, confidence, owner, and verification method before assigning a priority.
+
 ## Use the Audit Worksheet
 
 The repository includes a practical worksheet for recording checks, findings, evidence, recommendations, and verification results.
@@ -328,6 +334,8 @@ The exact order may change depending on the website, audit objective, and severi
 
 ## Audit Prioritization
 
+Use the priority labels as an implementation triage system, not as a Google ranking score. Base severity on affected scope, whether important URLs are blocked or unavailable, user impact, evidence strength, and the availability of a safe workaround. A tool's severity label alone is not sufficient evidence.
+
 Not every technical issue deserves the same level of attention.
 
 For each finding, document:
@@ -347,6 +355,15 @@ For each finding, document:
 Prioritize issues according to their actual effect on accessibility, crawling, indexing, usability, performance, and site maintenance.
 
 ## Evidence Sources
+
+Separate evidence by provenance:
+
+- **First-party Google evidence:** Search Console reports and URL Inspection, PageSpeed Insights field data, and other Google-owned diagnostics. These describe what the specific report or test measures; they do not reveal every internal ranking or indexing decision.
+- **Direct site evidence:** HTTP responses, rendered-page inspection, source/DOM inspection, server logs, deployment history, and reproducible browser tests.
+- **Third-party estimates:** crawler scores, estimated search volume/traffic, visibility metrics, and vendor-defined health scores. Useful for discovery and comparison, but label them as estimates and verify important findings independently.
+
+Do not combine these sources as if they were interchangeable or claim that a third-party metric is a Google metric.
+
 
 Useful audit evidence may include:
 
@@ -471,8 +488,18 @@ Created by **Nadeem Alam**, Digital Marketing & SEO Specialist.
 ## Project links
 
 - [Project landing page](https://nadeemalamseo.github.io/technical-seo-audit-checklist/)
-- [v0.1.0 release](https://github.com/nadeemalamseo/technical-seo-audit-checklist/releases/tag/v0.1.0)
-- [Download v0.1.0 ZIP](https://github.com/nadeemalamseo/technical-seo-audit-checklist/archive/refs/tags/v0.1.0.zip)
+- [Download latest source ZIP from main](https://github.com/nadeemalamseo/technical-seo-audit-checklist/archive/refs/heads/main.zip)
+- [Historical v0.1.0 release](https://github.com/nadeemalamseo/technical-seo-audit-checklist/releases/tag/v0.1.0) (fixed snapshot; not the latest source)
+
+## Authoritative references
+
+- [Google Search technical requirements](https://developers.google.com/search/docs/essentials/technical)
+- [Google robots.txt introduction](https://developers.google.com/search/docs/crawling-indexing/robots/intro)
+- [Google sitemap guidance](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap)
+- [Search Console Page indexing report](https://support.google.com/webmasters/answer/7440203)
+- [Core Web Vitals thresholds](https://web.dev/articles/defining-core-web-vitals-thresholds)
+
+See [methodology.md](methodology.md) for how these references should be applied during an audit.
 
 ## License
 
