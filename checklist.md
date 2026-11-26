@@ -2,7 +2,22 @@
 
 A practical worksheet for reviewing the technical foundations of a website.
 
-Use the checklist to record findings, evidence, recommendations, and verification results.
+Use the checklist to record findings, evidence, recommendations, and verification results. Treat each item as a prompt to investigate; do not mark a site as defective without recording supporting evidence.
+
+## Audit setup and evidence rules
+
+- [ ] Audit scope is defined (domain, subdomains, URL patterns, templates, device types, and exclusions)
+- [ ] Audit date, time zone, and comparison period are recorded
+- [ ] Data sources and tool versions are recorded
+- [ ] Crawl configuration is recorded (user agent, crawl limits, rendering mode, robots handling, and authentication)
+- [ ] A representative URL sample and any sampling limitations are documented
+- [ ] First-party data is distinguished from third-party estimates
+- [ ] Findings are separated from hypotheses and recommendations
+- [ ] Applicable / not applicable / not tested states are distinguished
+
+**Evidence rule:** For every issue, record the affected URL(s) or template, observation date, source, exact evidence, expected behavior, potential impact, confidence, owner, status, and a reproducible verification method. If evidence is unavailable, mark the item **Not tested** rather than **Pass** or **Fail**.
+
+**Source distinction:** Search Console and other first-party diagnostics describe their own reported data; third-party crawlers and vendor scores are estimates or observations from their own systems. Do not present third-party scores as Google metrics or as proof of a ranking cause. See [Audit Methodology](methodology.md).
 
 ---
 
@@ -23,6 +38,14 @@ Use the checklist to record findings, evidence, recommendations, and verificatio
 
 **Recommended Action:**
 
+**Affected URL(s) / Template:**
+
+**Data Source / Observation Date:**
+
+**Priority / Confidence / Owner / Status:**
+
+**Verification Method / Result:**
+
 ---
 
 ## 2. Crawlability
@@ -31,6 +54,7 @@ Use the checklist to record findings, evidence, recommendations, and verificatio
 - [ ] Important pages are not unintentionally blocked
 - [ ] Important resources are accessible where required for rendering
 - [ ] Crawl directives have been reviewed
+- [ ] URLs that must be processed for a `noindex` directive are not blocked from crawling
 - [ ] Unnecessary crawlable URL patterns have been identified
 - [ ] Parameter-driven URLs have been reviewed where applicable
 - [ ] Faceted navigation has been reviewed where applicable
@@ -137,7 +161,8 @@ Use the checklist to record findings, evidence, recommendations, and verificatio
 - [ ] Broken URLs have been removed or corrected
 - [ ] Redirected URLs have been reviewed
 - [ ] Canonical consistency has been checked
-- [ ] Important indexable URLs are represented
+- [ ] Important canonical URLs intended for indexing are represented
+- [ ] Sitemap entries are not assumed to guarantee crawling, indexing, or ranking
 - [ ] Sitemap processing and errors are monitored
 
 **Notes / Findings:**
@@ -212,7 +237,10 @@ Use the checklist to record findings, evidence, recommendations, and verificatio
 
 ## 11. Performance
 
-- [ ] Core Web Vitals have been reviewed
+- [ ] Core Web Vitals have been reviewed using field data where available
+- [ ] Field-data coverage, device category, URL/group scope, and reporting period are recorded
+- [ ] Lab diagnostics are labelled separately from real-user field data
+- [ ] LCP, INP, and CLS are assessed at the 75th percentile when the dataset supports it
 - [ ] Largest Contentful Paint has been reviewed
 - [ ] Interaction to Next Paint has been reviewed
 - [ ] Cumulative Layout Shift has been reviewed
@@ -393,6 +421,16 @@ Complete this section only when applicable.
 **Recommended Action:**
 
 ---
+
+# Audit Finding Register
+
+Use one row per distinct issue (not one row per checklist tick). Keep the raw evidence or a durable link to it with the audit record.
+
+| ID | Affected URL / Template | Finding | Evidence & Source | Impact | Priority | Confidence | Owner | Status | Verification |
+|---|---|---|---|---|---|---|---|---|---|
+| | | | | | | | | | |
+
+Priority should reflect real scope and impact, not the number of tool warnings. Confidence describes the strength of the evidence, not how certain the auditor feels.
 
 # Audit Summary
 
