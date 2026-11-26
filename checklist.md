@@ -38,14 +38,6 @@ Use the checklist to record findings, evidence, recommendations, and verificatio
 
 **Recommended Action:**
 
-**Affected URL(s) / Template:**
-
-**Data Source / Observation Date:**
-
-**Priority / Confidence / Owner / Status:**
-
-**Verification Method / Result:**
-
 ---
 
 ## 2. Crawlability
