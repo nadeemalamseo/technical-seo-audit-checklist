@@ -43,6 +43,10 @@ This repository contains the technical SEO audit checklist and worksheet. You ca
 
 [Open the Audit Worksheet](checklist.md)
 
+## Evidence methodology
+
+[Read the audit methodology](methodology.md) for source provenance, Search Console interpretation, Core Web Vitals field-versus-lab distinctions, and issue prioritization.
+
 ## Audit Workflow
 
 1. Define the audit scope
